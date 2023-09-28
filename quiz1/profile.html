@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="profile.css">
+    <title>Profile - Amstrong RZ</title>
+    <style>
+        /* Add hover effect to the "Show Additional Details" label */
+        .show-details:hover {
+            color: #00bcd4; /* Cyan color when hovered */
+        }
+    </style>
+    <script>
+        // JavaScript function to toggle visibility of additional details
+        function toggleDetails() {
+            var details = document.getElementById("additional-details");
+            details.style.display = (details.style.display === "block") ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+    <section class="profile">
+        <h2>Profile</h2>
+        <div class="profile-details">
+            <p><span class="label">Name:</span>Amstrong Roosevelt Zamzami</p>
+            <p><span class="label">Birth Place:</span>Jakarta, Indonesia</p>
+            <p><span class="label">Birthdate:</span>12 April 2003</p>
+            <p><span class="label">Address:</span>Mampang Prapatan Street, South Jakarta, Indonesia</p>
+            <p><span class="label">University:</span>Institut Teknologi Sepuluh Nopember (ITS)</p>
+            <br>
+
+            <p class="show-details" onclick="toggleDetails()">Show Additional Details</p>
+        </div>
+
+        <div id="additional-details" style="display: none;">
+            <p><span class="label">Email:</span> amstrongrz@gmail.com</p>
+            <p><span class="label">Phone:</span> +62 821 2320 7079</p>
+            "JavaScript is Working"
+        </div>
+    </section>
+</body>
+</html>

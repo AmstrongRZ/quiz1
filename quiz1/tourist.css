@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("bluewave.jpg");
+    background-size: 100%;
+    background-color: #000000;
+    color: #fff;
+}
+
+.tourist {
+    background-color: #111111;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.tourist h2 {
+    font-size: 32px;
+    color: #fff;
+}
+
+.tourist-item {
+    margin-top: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+.tourist-item img {
+    max-width: 250px;
+    height: auto;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.tourist-name {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.tourist-description {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.tourist-item:hover .tourist-description {
+    display: block;
+}

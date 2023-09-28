@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("black sand.jpg"); 
+    background-size: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.hometown {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.hometown h2 {
+    font-size: 32px;
+    color: #fff;
+}
+
+.hometown img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.hometown-description {
+    font-size: 18px;
+    margin-top: 20px;
+}
